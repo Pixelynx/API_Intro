@@ -17,7 +17,7 @@ In your `index.html` file, import your JS file and create a `button` tag with th
 
 ## Part 2
 
-Look again at your `APIResponse` object. You can see that it has two keys: `status` (which should contain the value `"success"`) and `message`, which contains all of our dog breeds. Each of these breeds are a key in an object, and each of them have a value, all of which are arrays. Most of these arrays are empty, but a few contain several _sub-breeds_.
+Look again at your `APIResponse` object. You can see that it has two keys: `status` (which should contain the value `"success"`) and `message`, which contains all of our dog breeds. Each of these breeds are a key in an object, and each of them has a value, all of which are arrays. Most of these arrays are empty, but a few contain several _sub-breeds_.
 
 Create a new array, `breedList`. This array should contain each of the breeds, _including sub-breeds_. When there is a list of sub-breeds, append each one to the beginning of the primary breed name. Capitalize the first letter of each word.
 
